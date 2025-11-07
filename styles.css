@@ -1,0 +1,79 @@
+body{ /* general*/
+  margin:0;
+  padding:20px;
+  background:#111;
+  color:#f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Zona del formulario */
+#survey-form{
+  max-width: 700px;
+  background:#1b1b1b;
+  padding:16px;
+  border-radius:10px;
+  margin: 0 auto;
+}
+
+/* Título y descripción */
+#title{
+  max-width:700px;
+  margin: 0 auto 8px auto;
+}
+#description{
+  max-width:700px;
+  margin: 0 auto 20px auto;
+  color:#bdbdbd;
+}
+
+
+/* Etiquetas e inputs */
+label{ display:block; margin-bottom:10px; }
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+  width:100%;
+  padding:10px; /* espaciado de cada input/area de datos. El de checkbox se ha quitado ya que sinó generaba un salto entre icono y texto */
+  border:1px solid #333;
+  border-radius:50px; /* redondez */
+  background:#121212;
+  color:#f5f5f5;
+}
+
+/* Radios y checkboxes básicos */
+
+
+fieldset{
+  border:0; padding:0; margin:0 0 16px 0;
+  }
+
+legend{
+  font-weight:bold;
+  margin-bottom:10px;
+  margin-top:20px; /* para separar de arriba*/
+  }
+
+fieldset label{
+  display:block; /* una opción por línea */
+  
+}
+input[type="checkbox"], input[type="radio"]{
+  accent-color:#d35f5f; /* color de "radio" y "checkbox cuando seleccionas */
+}
+
+
+/* Botón enviar */
+#submit{
+  background:#d35f5f;
+  color:white;
+  border:0;
+  border-radius:8px;
+  padding:10px 14px;
+  cursor:pointer;
+}
+
+#submit:hover{ /* :hover cuando el usuario pasa el cursor sobre él */
+  filter:brightness(1.05); /* iluminación para darle un toque distinto visualmente */
+  }
