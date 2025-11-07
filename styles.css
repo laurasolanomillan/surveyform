@@ -28,13 +28,18 @@ body{ /* general*/
 
 
 /* Etiquetas e inputs */
-label{ display:block; margin-bottom:10px; }
+label{
+  display:block;
+  margin-top:7px;   
+  margin-bottom:5px;
+
+}
 input[type="text"],
 input[type="email"],
 input[type="number"],
 select,
 textarea{
-  width:100%;
+  width:97%;
   padding:10px; /* espaciado de cada input/area de datos. El de checkbox se ha quitado ya que sinó generaba un salto entre icono y texto */
   border:1px solid #333;
   border-radius:50px; /* redondez */
